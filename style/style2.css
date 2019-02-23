@@ -1,0 +1,96 @@
+.link {
+  font-family: Arial;
+  font-size: 4vw;
+  font-weight: bold;
+  margin-bottom: 40px;
+  margin-top: 0px;
+  margin-right: 100px;
+  margin-left: 5px;
+  text-align: left;
+  color: #FA9028;
+}
+
+.bio {
+  font-family: Arial;
+  font-size: 8vw;
+  font-weight: bold;
+  margin-bottom: 70px;
+  margin-right: 100px;
+  margin-left: 5px;
+  text-align: left;
+  color: #FA9028;
+}
+
+.health {
+  font-family: Arial;
+  font-size: 1vw;
+  text-align: bottom;
+  color: #FF0044;
+  margin-right: 10px;
+  margin-bottom: 6px;
+  margin-top: 0px;
+  padding-top: 0px;
+
+}
+
+
+.title {
+  font-family: Arial;
+  font-size: 4vw;
+  font-weight: bold;
+  margin-bottom: 350px;
+  flex-grow: 1;
+  text-align: center;
+  color: #FA9028;
+}
+
+.para {
+  font-family: Arial;
+  font-size: 3vw;
+  font-weight: bold;
+  margin-bottom: 50px;
+  margin-top: 40px;
+  text-align: right;
+  color: #FA9028;
+}
+
+
+.slide-left {
+  width:100%;
+  overflow:hidden;
+}
+.slide-left  {
+  animation: slide-left 6s;
+}
+
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.slide-right {
+  width:100%;
+  overflow:hidden;
+}
+.slide-right  {
+  animation: 6s slide-right;
+}
+
+@keyframes slide-right {
+  from {
+    margin-left: -100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
