@@ -1,0 +1,13 @@
+.para p {
+  font-family: Arial;
+  font-size: 10vw;
+  font-weight: bold;
+  margin-bottom: 50px;
+  margin-top: 40px;
+  text-align: right;
+  color: #FF6600;
+}
+
+.body body {
+  background-color: #FA9028;
+}
